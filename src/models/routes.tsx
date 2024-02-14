@@ -1,8 +1,8 @@
-import {Hero} from "@/pages/components/hero";
-import {CoupleSection} from "@/pages/components/couple";
-import {StorySection} from "@/pages/components/story";
-import {PortfolioSection} from "@/pages/components/portfolio";
-import {EventSection} from "@/pages/components/event";
+import {Hero} from "@/components/hero";
+import {CoupleSection} from "@/components/couple";
+import {StorySection} from "@/components/story";
+import {PortfolioSection} from "@/components/portfolio";
+import {EventSection} from "@/components/event";
 
 export const sections = [
     {

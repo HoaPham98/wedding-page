@@ -1,4 +1,4 @@
-import {Countdown} from "@/pages/components/countdown";
+import {Countdown} from "@/components/countdown";
 
 export function Hero() {
     return <section className="static-hero">

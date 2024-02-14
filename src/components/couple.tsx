@@ -1,4 +1,4 @@
-import {CoupleInfo, coupleInfos} from "@/pages/models/couple_info";
+import {CoupleInfo, coupleInfos} from "@/models/couple_info";
 
 type Props = {
     dir: "LTR" | "RTL",

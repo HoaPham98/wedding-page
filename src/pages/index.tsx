@@ -1,16 +1,6 @@
-import {Inter} from "next/font/google";
-import {Header} from "@/pages/components/header";
-import {Hero} from "@/pages/components/hero";
-import {CoupleSection} from "@/pages/components/couple";
-import {StorySection} from "@/pages/components/story";
-import {PortfolioSection} from "@/pages/components/portfolio";
-import {EventSection} from "@/pages/components/event";
-import {BlogSection} from "@/pages/components/blog";
-import {ContactSection} from "@/pages/components/contact";
-import {sections} from "@/pages/models/routes";
+import {Header} from "@/components/header";
+import {sections} from "@/models/routes";
 import ScrollSpy from "react-ui-scrollspy";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
