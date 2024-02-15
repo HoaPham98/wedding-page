@@ -51,7 +51,7 @@ export function Hero() {
                                         animationName: "fadeInUp"
                                     }}
                                 >
-                                    <Countdown date={new Date("2024-3-20 15:30:00")}/>
+                                    <Countdown date={new Date("03/20/2024")}/>
                                 </div>
                                 <div
                                     className="shape-2 wow fadeInUp"
