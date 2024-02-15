@@ -15,8 +15,8 @@ export const coupleInfos: CoupleInfo[] = [
     },
     {
         name: "Kiều Trang",
-        dadName: "",
-        momName: "",
+        dadName: "Kiều Đức Thành",
+        momName: "Đỗ Thị Thìn",
         address: "Trưng Trắc, Văn Lâm, Hưng Yên"
     },
 ]

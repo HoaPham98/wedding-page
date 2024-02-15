@@ -21,13 +21,13 @@ export const sections = [
         title: 'Chuyện tình yêu'
     },
     {
+        id: 'event',
+        component: <EventSection/>,
+        title: 'Sự kiện'
+    },
+    {
         id: 'gallery',
         component: <PortfolioSection/>,
         title: 'Album'
     },
-    {
-        id: 'event',
-        component: <EventSection/>,
-        title: 'Sự kiện'
-    }
 ]

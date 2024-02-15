@@ -281,7 +281,7 @@
 
 	.wpo-site-header #navbar>ul>li>a:hover:before,
 	.wpo-site-header #navbar>ul>li.current-menu-item a:before,
-	.wpo-site-header #navbar>ul>li>a.active-scroll-spy:before {
+	.wpo-site-header #navbar>ul>li>a.active:before {
 		opacity: 1;
 		visibility: visible;
 	}
@@ -453,6 +453,24 @@
 	outline: 0;
 }
 
+
+.wpo-site-header .header-right button.btn {
+	background: none;
+	border: 0;
+	outline: 0;
+	padding: 0;
+
+	&:focus {
+		outline: none;
+		border: none;
+		box-shadow: none;
+	}
+}
+
+.wpo-site-header .header-right button.btn i {
+	color: #323232;
+}
+
 .wpo-site-header .header-right>div {
 	float: left;
 	position: relative;
@@ -548,7 +566,6 @@
 
 	.fi {
 		font-size: 30px;
-		font-size: calc-rem-value(30);
 		color: $dark-gray;
 	}
 
@@ -591,7 +608,6 @@
 
 	.header-search-form-wrapper .fi:before {
 		font-size: 18px;
-		font-size: calc-rem-value(18);
 	}
 
 	form div {
@@ -641,7 +657,6 @@
 	width: 19px;
 	height: 19px;
 	font-size: 10px;
-	font-size: calc-rem-value(8);
 	line-height: 17px;
 	color: white;
 	position: absolute;
@@ -693,7 +708,6 @@
 
 	p {
 		font-size: 15px;
-		font-size: calc-rem-value(15);
 		font-weight: 500;
 		color: $heading-color;
 		margin: 0;
@@ -739,7 +753,6 @@
 
 	.mini-cart-item-des a {
 		font-size: 15px;
-		font-size: calc-rem-value(15);
 		font-weight: 600;
 		text-align: left;
 		color: $heading-color;
@@ -752,7 +765,6 @@
 
 	.mini-cart-item-des .mini-cart-item-price {
 		font-size: 13px;
-		font-size: calc-rem-value(13);
 		color: #888;
 		display: block;
 		margin-top: 3px;
@@ -760,7 +772,6 @@
 
 	.mini-cart-item-des .mini-cart-item-quantity {
 		font-size: 12px;
-		font-size: calc-rem-value(12);
 		color: #444;
 		display: block;
 		position: absolute;
@@ -798,7 +809,6 @@
 
 	.mini-cart-action .mini-checkout-price {
 		font-size: 16px;
-		font-size: calc-rem-value(16);
 		font-weight: 600;
 		color: $heading-color;
 		display: block;
@@ -980,6 +990,7 @@
 				font-weight: 500;
 				position: relative;
 				text-transform: uppercase;
+				cursor: pointer;
 
 				@media(max-width:1870px) {
 					padding: 35px 18px;
@@ -1002,7 +1013,6 @@
 
 			>ul>li .sub-menu a {
 				font-size: 16px;
-				font-size: calc-rem-value(16);
 				display: inline-block;
 				padding: 5px 0px;
 				color: $dark-gray;
@@ -1049,7 +1059,6 @@
 					font-family: "themify";
 					content: "\e649";
 					font-size: 11px;
-					font-size: calc-rem-value(11);
 					position: absolute;
 					right: 15px;
 					top: 50%;
@@ -1076,7 +1085,6 @@
 			>ul>li a {
 				display: block;
 				font-size: 15px;
-				font-size: calc-rem-value(15);
 				color: $white;
 				font-weight: 600;
 
@@ -1115,7 +1123,6 @@
 					font-family: "themify";
 					content: "\e649";
 					font-size: 11px;
-					font-size: calc-rem-value(11);
 					position: absolute;
 					right: 30px;
 					top: 50%;
@@ -1574,5 +1581,43 @@
 @media(max-width:575px) {
 	.wpo-site-header .navigation.sticky-header {
 		padding: 20px 10px;
+	}
+}
+
+.fixed-navbar {
+	position: relative;
+	z-index: 5555;
+}
+
+.fixed-navbar.active .wpo-site-header,
+.fixed-navbar.active .header-style-2 {
+	position: fixed;
+	z-index: 555;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: $white;
+	border: none;
+	box-shadow: 0px 1px 5px rgba(0, 0, 0, .1);
+	-moz-box-shadow: 0px 1px 5px rgba(0, 0, 0, .1);
+	-webkit-box-shadow: 0px 1px 5px rgba(0, 0, 0, .1);
+}
+
+.fixed-navbar.active .wpo-header-style-2 {
+	background: $white;
+}
+
+.fixed-navbar.active .wpo-header-style-4 {
+	background: $theme-primary-color;
+
+	.mini-cart .cart-count {
+		background: #444c35;
+	}
+}
+
+
+.topbarNone {
+	.topbar {
+		display: none;
 	}
 }

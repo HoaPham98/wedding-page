@@ -1,3 +1,6 @@
+import Image from "next/image";
+import {Slide} from "react-awesome-reveal";
+
 type Event = {
     title: string,
     date: Date,
@@ -14,43 +17,42 @@ type Event = {
 function EventItem(props: { event: Event }) {
     const { event } = props;
     return <div className="col col-lg-4 col-md-6 col-12">
-        <div
-            className="wpo-event-item wow fadeInUp"
-            data-wow-duration="1000ms"
-            style={{
-                visibility: "visible",
-                animationDuration: "1000ms",
-                animationName: "fadeInUp"
-            }}
-        >
-            <div className="wpo-event-img">
-                <div className="wpo-event-img-inner">
-                    <img src={event.thumbnail} alt=""/>
+        <Slide direction="up" duration={1400} triggerOnce={true}>
+            <div className="wpo-event-item">
+                <div className="wpo-event-img">
+                    <div className="wpo-event-img-inner">
+                        <img src={event.thumbnail} alt=""/>
+                    </div>
+                </div>
+                <div className="wpo-event-text">
+                    <div className="title">
+                        <h2>{event.title}</h2>
+                    </div>
+                    <ul>
+                        <li>
+                            {event.date.toLocaleDateString('vi-VN', {
+                                weekday: "long",
+                                day: '2-digit',
+                                month: 'long',
+                                year: 'numeric'
+                            })} <br/> {event.startTime} – {event.endTime}
+                        </li>
+                        <li>{event.address}</li>
+                        {event.mobile ? <li>{event.mobile}</li> : <></>}
+                        <li>
+                            {" "}
+                            <a
+                                className="popup-gmaps"
+                                href={`https://www.google.com/maps/place/${event.location.lat},${event.location.lng}`}
+                                target="_blank"
+                            >
+                                Xem địa chỉ
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-            <div className="wpo-event-text">
-                <div className="title">
-                    <h2>{event.title}</h2>
-                </div>
-                <ul>
-                    <li>
-                        {event.date.toLocaleDateString('vi-VN', { weekday: "long", day: '2-digit', month: 'long', year: 'numeric'})} <br/> {event.startTime} – {event.endTime}
-                    </li>
-                    <li>{event.address}</li>
-                    {event.mobile ? <li>{event.mobile}</li> : <></>}
-                    <li>
-                        {" "}
-                        <a
-                            className="popup-gmaps"
-                            href={`https://www.google.com/maps/place/${event.location.lat},${event.location.lng}`}
-                            target="_blank"
-                        >
-                            Xem địa chỉ
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
+        </Slide>
     </div>;
 }
 
@@ -69,21 +71,21 @@ export function EventSection() {
                             date: new Date('2024-03-19'),
                             startTime: "17:00",
                             endTime: "20:00",
-                            thumbnail: "",
+                            thumbnail: "/assets/images/event/le-cuoi-nha-trai.png",
                             address: "Gia đình nhà trai",
                             location: {
                                 lat: 20.984533,
                                 lng: 105.990350
                             }
                         }
-                        }/>
+                    }/>
                     <EventItem event={
                         {
                             title: 'Tiệc cưới nhà gái',
                             date: new Date('2024-03-19'),
                             startTime: "17:00",
                             endTime: "20:00",
-                            thumbnail: "",
+                            thumbnail: "/assets/images/event/le-cuoi-nha-gai.png",
                             address: "Gia đình nhà gái",
                             location: {
                                 lat: 20.9595693,
@@ -97,7 +99,7 @@ export function EventSection() {
                             date: new Date('2024-03-20'),
                             startTime: "15:00",
                             endTime: "16:00",
-                            thumbnail: "",
+                            thumbnail: "/assets/images/event/le-thanh-hon.jpg",
                             address: "Gia đình nhà trai",
                             location: {
                                 lat: 20.984533,

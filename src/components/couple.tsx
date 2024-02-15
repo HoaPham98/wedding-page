@@ -40,7 +40,7 @@ function CoupleItem(props: Props) {
                     animationName: isLTR ? "fadeInLeftSlow" : "fadeInRightSlow"
                 }}
             >
-                <h3>Phạm Quang Hoà</h3>
+                <h3 style={{textAlign: isLTR ? 'left' : 'right'}}>{data.name}</h3>
                 <p style={{textAlign: isLTR ? 'left' : 'right'}}>
                     Con ông: <b>{data.dadName}</b><br/>
                     Con bà: <b>{data.dadName}</b><br/> Địa chỉ: <b>{data.address}</b>

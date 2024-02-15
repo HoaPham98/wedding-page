@@ -83,7 +83,7 @@ export function Hero() {
                 }}
             >
                 <div className="static-hero-img-inner">
-                    <img src="assets/images/slider/hero-1.jpg" alt=""/>
+                    <img src="assets/images/slider/couple.jpg" alt=""/>
                 </div>
                 <div
                     className="static-hero-shape-1 wow fadeInDown"
