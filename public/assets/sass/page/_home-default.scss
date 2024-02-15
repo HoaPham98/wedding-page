@@ -59,6 +59,7 @@
 			.couple-img-wrap {
 				position: relative;
 				z-index: 1;
+				max-width: 40%;
 
 				.c-shape {
 					position: absolute;
@@ -638,6 +639,8 @@
 
 			img {
 				width: 100%;
+				aspect-ratio: 3/4;
+				object-fit: cover;
 			}
 		}
 
