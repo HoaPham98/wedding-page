@@ -43,7 +43,7 @@ function CoupleItem(props: Props) {
                 <h3 style={{textAlign: isLTR ? 'left' : 'right'}}>{data.name}</h3>
                 <p style={{textAlign: isLTR ? 'left' : 'right'}}>
                     Con ông: <b>{data.dadName}</b><br/>
-                    Con bà: <b>{data.dadName}</b><br/> Địa chỉ: <b>{data.address}</b>
+                    Con bà: <b>{data.momName}</b><br/> Địa chỉ: <b>{data.address}</b>
                 </p>
                 <div className="social">
                     <ul>
