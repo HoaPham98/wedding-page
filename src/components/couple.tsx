@@ -45,7 +45,7 @@ function CoupleItem(props: Props) {
                     Con ông: <b>{data.dadName}</b><br/>
                     Con bà: <b>{data.momName}</b><br/> Địa chỉ: <b>{data.address}</b>
                 </p>
-                <div className="social">
+                <div className="social" style={{display: 'none'}}>
                     <ul>
                         <li>
                             <a href="#">

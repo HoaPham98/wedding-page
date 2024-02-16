@@ -24,9 +24,7 @@ export default function Home() {
                     </div>
                 </div>
                 <Header routes={sections}/>
-                <ScrollSpy>
-                    {sections.map(e => <div key={e.id} id={e.id}>{e.component}</div>)}
-                </ScrollSpy>
+                {sections.map(e => <div key={e.id} id={e.id}>{e.component}</div>)}
                 <footer className="wpo-site-footer">
                     <div className="wpo-upper-footer">
                         <div className="container">
