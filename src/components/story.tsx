@@ -1,16 +1,16 @@
-import sImg1 from '../../public/static/images/story/1.jpg'
-import sImg2 from '../../public/static/images/story/2.jpg'
-import sImg3 from '../../public/static/images/story/3.jpg'
+import sImg1 from '../../public/assets/images/story/1.jpg'
+import sImg2 from '../../public/assets/images/story/2.jpg'
+import sImg3 from '../../public/assets/images/story/3.jpg'
 
-import shape1 from '../../public/static/images/story/shape.png'
-import shape2 from '../../public/static/images/story/shape2.png'
-import shape3 from '../../public/static/images/story/shape3.png'
+import shape1 from '../../public/assets/images/story/shape.png'
+import shape2 from '../../public/assets/images/story/shape2.png'
+import shape3 from '../../public/assets/images/story/shape3.png'
 
 
-import bshape1 from '../../public/static/images/story/flower-shape1.svg'
-import bshape2 from '../../public/static/images/story/flower-shape2.svg'
-import bshape3 from '../../public/static/images/story/flower-shape3.svg'
-import bshape4 from '../../public/static/images/story/flower-shape4.svg'
+import bshape1 from '../../public/assets/images/story/flower-shape1.svg'
+import bshape2 from '../../public/assets/images/story/flower-shape2.svg'
+import bshape3 from '../../public/assets/images/story/flower-shape3.svg'
+import bshape4 from '../../public/assets/images/story/flower-shape4.svg'
 import { Zoom } from "react-awesome-reveal";
 
 

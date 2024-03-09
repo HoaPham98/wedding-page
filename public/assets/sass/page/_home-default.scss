@@ -40,8 +40,8 @@
 				mask-size: 100%;
 				-webkit-mask-repeat: no-repeat;
 				mask-repeat: no-repeat;
-				mask-image: url(/static/images/couple/mask-1.svg);
-				-webkit-mask-image: url(/static/images/couple/mask-1.svg);
+				mask-image: url(/assets/images/couple/mask-1.svg);
+				-webkit-mask-image: url(/assets/images/couple/mask-1.svg);
 
 				@media(max-width:991px) {
 					margin-bottom: 10px;
@@ -165,8 +165,8 @@
 					}
 
 					.couple-img {
-						mask-image: url(/static/images/couple/mask-2.svg);
-						-webkit-mask-image: url(/static/images/couple/mask-2.svg);
+						mask-image: url(/assets/images/couple/mask-2.svg);
+						-webkit-mask-image: url(/assets/images/couple/mask-2.svg);
 					}
 
 					.c-shape {
@@ -1020,7 +1020,7 @@
 				-o-appearance: none;
 				appearance: none;
 				-moz-appearance: none;
-				background: transparent url(/static/images/select-icon2.png) no-repeat calc(100% - 15px) center;
+				background: transparent url(/assets/images/select-icon2.png) no-repeat calc(100% - 15px) center;
 				position: relative;
 
 				option {
@@ -1034,7 +1034,7 @@
 				-o-appearance: none;
 				appearance: none;
 				-moz-appearance: none;
-				background: transparent url(/static/images/date2.png) no-repeat calc(100% - 15px) center;
+				background: transparent url(/assets/images/date2.png) no-repeat calc(100% - 15px) center;
 			}
 
 			.radio-buttons {

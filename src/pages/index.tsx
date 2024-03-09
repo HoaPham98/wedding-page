@@ -19,7 +19,7 @@ export default function Home() {
                             <div className="loader-line-mask">
                                 <div className="loader-line"/>
                             </div>
-                            <img src="static/images/preloader.gif" alt=""/>
+                            <img src="assets/images/preloader.gif" alt=""/>
                         </div>
                     </div>
                 </div>
@@ -74,10 +74,10 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="ft-shape-1">
-                        <img src="static/images/footer-shape-1.svg" alt=""/>
+                        <img src="assets/images/footer-shape-1.svg" alt=""/>
                     </div>
                     <div className="ft-shape-2">
-                        <img src="static/images/footer-shape-2.svg" alt=""/>
+                        <img src="assets/images/footer-shape-2.svg" alt=""/>
                     </div>
                 </footer>
             </div>

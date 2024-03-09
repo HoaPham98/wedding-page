@@ -71,7 +71,7 @@ export function EventSection() {
                             date: new Date('2024-03-19'),
                             startTime: "17:00",
                             endTime: "20:00",
-                            thumbnail: "/static/images/event/le-cuoi-nha-trai.jpg",
+                            thumbnail: "/assets/images/event/le-cuoi-nha-trai.jpg",
                             address: "Gia đình nhà trai",
                             location: {
                                 lat: 20.984533,
@@ -85,7 +85,7 @@ export function EventSection() {
                             date: new Date('2024-03-19'),
                             startTime: "17:00",
                             endTime: "20:00",
-                            thumbnail: "/static/images/event/le-cuoi-nha-gai.jpg",
+                            thumbnail: "/assets/images/event/le-cuoi-nha-gai.jpg",
                             address: "Gia đình nhà gái",
                             location: {
                                 lat: 20.9595693,
@@ -99,7 +99,7 @@ export function EventSection() {
                             date: new Date('2024-03-20'),
                             startTime: "15:00",
                             endTime: "16:00",
-                            thumbnail: "/static/images/event/le-thanh-hon.jpg",
+                            thumbnail: "/assets/images/event/le-thanh-hon.jpg",
                             address: "Gia đình nhà trai",
                             location: {
                                 lat: 20.984533,

@@ -123,7 +123,7 @@ export function ContactSection() {
                 />
             </svg>
             <div className="shape-1">
-                <img src="static/images/rsvp/shape.svg" alt=""/>
+                <img src="assets/images/rsvp/shape.svg" alt=""/>
             </div>
             <div
                 className="shape-2 wow fadeInUp animated"
@@ -134,7 +134,7 @@ export function ContactSection() {
                     animationName: "fadeInUp"
                 }}
             >
-                <img src="static/images/rsvp/shape2.svg" alt=""/>
+                <img src="assets/images/rsvp/shape2.svg" alt=""/>
             </div>
             <div
                 className="shape-3 wow fadeInUp animated"
@@ -145,7 +145,7 @@ export function ContactSection() {
                     animationName: "fadeInUp"
                 }}
             >
-                <img src="static/images/rsvp/shape3.svg" alt=""/>
+                <img src="assets/images/rsvp/shape3.svg" alt=""/>
             </div>
             <div
                 className="shape-4 wow fadeInUp animated"
@@ -156,7 +156,7 @@ export function ContactSection() {
                     animationName: "bounce"
                 }}
             >
-                <img src="static/images/rsvp/shape4.svg" alt=""/>
+                <img src="assets/images/rsvp/shape4.svg" alt=""/>
             </div>
             <div
                 className="shape-5 wow fadeInUp animated"
@@ -167,7 +167,7 @@ export function ContactSection() {
                     animationName: "fadeInUp"
                 }}
             >
-                <img src="static/images/rsvp/shape5.svg" alt=""/>
+                <img src="assets/images/rsvp/shape5.svg" alt=""/>
             </div>
             <div
                 className="shape-6 wow fadeInUp animated"
@@ -178,7 +178,7 @@ export function ContactSection() {
                     animationName: "fadeInUp"
                 }}
             >
-                <img src="static/images/rsvp/shape6.svg" alt=""/>
+                <img src="assets/images/rsvp/shape6.svg" alt=""/>
             </div>
         </div>
     </section>;

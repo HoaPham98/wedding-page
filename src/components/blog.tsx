@@ -23,7 +23,7 @@ export function BlogSection() {
                             }}
                         >
                             <div className="wpo-blog-img">
-                                <img src="static/images/blog/img-1.jpg" alt=""/>
+                                <img src="assets/images/blog/img-1.jpg" alt=""/>
                             </div>
                             <div className="wpo-blog-content">
                                 <ul>
@@ -49,7 +49,7 @@ export function BlogSection() {
                             }}
                         >
                             <div className="wpo-blog-img">
-                                <img src="static/images/blog/img-2.jpg" alt=""/>
+                                <img src="assets/images/blog/img-2.jpg" alt=""/>
                             </div>
                             <div className="wpo-blog-content">
                                 <ul>
@@ -75,7 +75,7 @@ export function BlogSection() {
                             }}
                         >
                             <div className="wpo-blog-img">
-                                <img src="static/images/blog/img-3.jpg" alt=""/>
+                                <img src="assets/images/blog/img-3.jpg" alt=""/>
                             </div>
                             <div className="wpo-blog-content">
                                 <ul>
@@ -94,13 +94,13 @@ export function BlogSection() {
                     </div>
                 </div>
                 <div className="b-shape-2">
-                    <img src="static/images/blog/shape-2.svg" alt=""/>
+                    <img src="assets/images/blog/shape-2.svg" alt=""/>
                 </div>
             </div>
         </div>
         {/* end container */}
         <div className="b-shape">
-            <img src="static/images/blog/shape-1.svg" alt=""/>
+            <img src="assets/images/blog/shape-1.svg" alt=""/>
         </div>
     </section>;
 }
