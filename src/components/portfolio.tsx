@@ -23,8 +23,16 @@ const Portfolios = [
     },
     {
         Pimg: 'assets/images/portfolio/6.jpg',
-    }
-
+    },
+    {
+        Pimg: 'assets/images/portfolio/7.jpg',
+    },{
+        Pimg: 'assets/images/portfolio/8.jpg',
+    },{
+        Pimg: 'assets/images/portfolio/9.jpg',
+    },{
+        Pimg: 'assets/images/portfolio/10.jpg',
+    },
 ]
 export function PortfolioSection() {
     const settings = {

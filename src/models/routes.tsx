@@ -15,11 +15,11 @@ export const sections = [
         component: <CoupleSection/>,
         title: 'Cặp đôi'
     },
-    {
-        id: 'story',
-        component: <StorySection/>,
-        title: 'Chuyện tình yêu'
-    },
+    // {
+    //     id: 'story',
+    //     component: <StorySection/>,
+    //     title: 'Chuyện tình yêu'
+    // },
     {
         id: 'event',
         component: <EventSection/>,
