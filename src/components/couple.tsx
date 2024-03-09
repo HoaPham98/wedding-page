@@ -21,14 +21,14 @@ function CoupleItem(props: Props) {
                 <div
                     className="couple-img"
                     style={{
-                        maskImage: `url(./assets/images/couple/mask-${isLTR ? "1" : "2"}.svg)`,
-                        WebkitMaskImage: `url(./assets/images/couple/mask-${isLTR ? "1" : "2"}.svg)`
+                        maskImage: `url(./static/images/couple/mask-${isLTR ? "1" : "2"}.svg)`,
+                        WebkitMaskImage: `url(./static/images/couple/mask-${isLTR ? "1" : "2"}.svg)`
                     }}
                 >
-                    <img src={data.image ?? 'assets/images/couple/1.jpg'} alt=""/>
+                    <img src={data.image ?? 'static/images/couple/1.jpg'} alt=""/>
                 </div>
                 <div className="c-shape">
-                    <img src="assets/images/couple/image-bg.svg" alt=""/>
+                    <img src="static/images/couple/image-bg.svg" alt=""/>
                 </div>
             </div>
             <div

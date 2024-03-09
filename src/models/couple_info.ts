@@ -12,13 +12,13 @@ export const coupleInfos: CoupleInfo[] = [
         dadName: "Phạm Quang Điện",
         momName: "Đỗ Thị Hương",
         address: "Như Quỳnh, Văn Lâm, Hưng Yên",
-        image: "/assets/images/couple/Hoa.jpg"
+        image: "/static/images/couple/Hoa.jpg"
     },
     {
         name: "Kiều Trang",
         dadName: "Kiều Đức Thành",
         momName: "Đỗ Thị Thìn",
         address: "Trưng Trắc, Văn Lâm, Hưng Yên",
-        image: "/assets/images/couple/Trang.jpg"
+        image: "/static/images/couple/Trang.jpg"
     },
 ]

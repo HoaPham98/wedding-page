@@ -309,7 +309,7 @@
 			}
 
 			select.form-control {
-				background: rgba(255, 255, 255, 0.69) url(/assets/images/select-icon2.png) no-repeat calc(100% - 15px) center;
+				background: rgba(255, 255, 255, 0.69) url(/static/images/select-icon2.png) no-repeat calc(100% - 15px) center;
 
 				@media(max-width:1199px) {
 					height: 50px;
@@ -322,7 +322,7 @@
 
 			.date {
 				.form-control {
-					background: rgba(255, 255, 255, 0.69) url(/assets/images/date2.png) no-repeat calc(100% - 15px) center;
+					background: rgba(255, 255, 255, 0.69) url(/static/images/date2.png) no-repeat calc(100% - 15px) center;
 				}
 			}
 

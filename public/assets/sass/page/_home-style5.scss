@@ -29,7 +29,7 @@
 			width: 255px;
 			height: 256px;
 			text-align: center;
-			background: url(/assets/images/date-bg.png) no-repeat center center;
+			background: url(/static/images/date-bg.png) no-repeat center center;
 			background-size: cover;
 
 			@include media-query(1199px) {

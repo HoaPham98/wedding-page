@@ -7,31 +7,31 @@ import {useState} from "react";
 
 const Portfolios = [
     {
-        Pimg: 'assets/images/portfolio/1.jpg',
+        Pimg: 'static/images/portfolio/1.jpg',
     },
     {
-        Pimg: 'assets/images/portfolio/2.jpg',
+        Pimg: 'static/images/portfolio/2.jpg',
     },
     {
-        Pimg: 'assets/images/portfolio/3.jpg',
+        Pimg: 'static/images/portfolio/3.jpg',
     },
     {
-        Pimg: 'assets/images/portfolio/4.jpg',
+        Pimg: 'static/images/portfolio/4.jpg',
     },
     {
-        Pimg: 'assets/images/portfolio/5.jpg',
+        Pimg: 'static/images/portfolio/5.jpg',
     },
     {
-        Pimg: 'assets/images/portfolio/6.jpg',
+        Pimg: 'static/images/portfolio/6.jpg',
     },
     {
-        Pimg: 'assets/images/portfolio/7.jpg',
+        Pimg: 'static/images/portfolio/7.jpg',
     },{
-        Pimg: 'assets/images/portfolio/8.jpg',
+        Pimg: 'static/images/portfolio/8.jpg',
     },{
-        Pimg: 'assets/images/portfolio/9.jpg',
+        Pimg: 'static/images/portfolio/9.jpg',
     },{
-        Pimg: 'assets/images/portfolio/10.jpg',
+        Pimg: 'static/images/portfolio/10.jpg',
     },
 ]
 export function PortfolioSection() {

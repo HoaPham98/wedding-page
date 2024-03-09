@@ -17,7 +17,7 @@ export function Hero() {
                                         animationName: "fadeInUp"
                                     }}
                                 >
-                                    <img src="assets/images/slider/shape1.svg" alt=""/>
+                                    <img src="static/images/slider/shape1.svg" alt=""/>
                                 </div>
                                 <div
                                     className="slide-title wow fadeInUp"
@@ -62,7 +62,7 @@ export function Hero() {
                                         animationName: "fadeInUp"
                                     }}
                                 >
-                                    <img src="assets/images/slider/shape2.svg" alt=""/>
+                                    <img src="static/images/slider/shape2.svg" alt=""/>
                                 </div>
                                 <div className="clearfix"/>
                             </div>
@@ -83,7 +83,7 @@ export function Hero() {
                 }}
             >
                 <div className="static-hero-img-inner">
-                    <img src="assets/images/slider/couple.jpg" alt=""/>
+                    <img src="static/images/slider/couple.jpg" alt=""/>
                 </div>
                 <div
                     className="static-hero-shape-1 wow fadeInDown"
@@ -107,7 +107,7 @@ export function Hero() {
                   top: 0
               }}
           >
-            <img src="assets/images/slider/shape3.svg" alt=""/>
+            <img src="static/images/slider/shape3.svg" alt=""/>
           </span>
                 </div>
                 <div
@@ -132,7 +132,7 @@ export function Hero() {
                   top: 0
               }}
           >
-            <img src="assets/images/slider/shape4.svg" alt=""/>
+            <img src="static/images/slider/shape4.svg" alt=""/>
           </span>
                 </div>
                 <div className="static-hero-shape-3">
@@ -149,7 +149,7 @@ export function Hero() {
                   top: 0
               }}
           >
-            <img src="assets/images/slider/shape5.svg" alt=""/>
+            <img src="static/images/slider/shape5.svg" alt=""/>
           </span>
                 </div>
                 <div
@@ -161,11 +161,11 @@ export function Hero() {
                         animationName: "fadeInUp"
                     }}
                 >
-                    <img src="assets/images/slider/shape6.svg" alt=""/>
+                    <img src="static/images/slider/shape6.svg" alt=""/>
                 </div>
             </div>
             <div className="static-hero-img-bg">
-                <img src="assets/images/slider/bg-shape.png" alt=""/>
+                <img src="static/images/slider/bg-shape.png" alt=""/>
             </div>
         </div>
         <div className="right-shape">
