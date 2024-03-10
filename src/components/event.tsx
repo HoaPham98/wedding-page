@@ -8,11 +8,13 @@ type Event = {
     endTime: string,
     thumbnail: string,
     address: string,
+    addressDetail: string,
     mobile?: string,
     location: {
         lat: number,
         lng: number
-    }
+    },
+    eventUrl?: string,
 }
 function EventItem(props: { event: Event }) {
     const { event } = props;
@@ -38,6 +40,7 @@ function EventItem(props: { event: Event }) {
                             })} <br/> {event.startTime} – {event.endTime}
                         </li>
                         <li>{event.address}</li>
+                        <li>{event.addressDetail}</li>
                         {event.mobile ? <li>{event.mobile}</li> : <></>}
                         <li>
                             {" "}
@@ -73,6 +76,7 @@ export function EventSection() {
                             endTime: "20:00",
                             thumbnail: "/assets/images/event/le-cuoi-nha-trai.jpg",
                             address: "Gia đình nhà trai",
+                            addressDetail: "Ngô Xuyên, Như Quỳnh, Văn Lâm, Hưng Yên",
                             location: {
                                 lat: 20.984533,
                                 lng: 105.990350
@@ -87,6 +91,7 @@ export function EventSection() {
                             endTime: "20:00",
                             thumbnail: "/assets/images/event/le-cuoi-nha-gai.jpg",
                             address: "Gia đình nhà gái",
+                            addressDetail: "Chợ Đường Cái, Văn Lâm, Hưng Yên",
                             location: {
                                 lat: 20.9595693,
                                 lng: 105.9970045,
@@ -101,6 +106,7 @@ export function EventSection() {
                             endTime: "16:00",
                             thumbnail: "/assets/images/event/le-thanh-hon.jpg",
                             address: "Gia đình nhà trai",
+                            addressDetail: "Ngô Xuyên, Như Quỳnh, Văn Lâm, Hưng Yên",
                             location: {
                                 lat: 20.984533,
                                 lng: 105.990350
